@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="purple-background"></div>
+    <div id="phone">
+      <div id="notch"></div>
+
+      <div id="chat-banner">
+        <div class="back-arrow"></div>
+        <div id="user-info">
+          <div id="profile-picture-div">
+            <img src="images/avatar.jpg" alt="profile-picture" id="profile-picture">
+          </div>
+          <p id="name">Samuel Green</p>
+          <p id="availability">Available to Walk </p>
+        </div> 
+      </div>
+      <div id="messages">
+        <div class="received-message">
+          That sounds great. I’d be happy with that.
+        </div>
+        <div class="received-message">
+          Could you send over some pictures of your dog, please?
+        </div>
+        <div class="outgoing-images">
+          <img src="images/dog-image-1.jpg" alt="dog-image-1">
+          <img src="images/dog-image-2.jpg" alt="dog-image-2">
+          <img src="images/dog-image-3.jpg" alt="dog-image-3">
+        </div> 
+        <div class="outgoing-message">
+          Here are a few pictures. She’s a happy girl!
+        </div>
+        <div class="outgoing-message">
+          Can you make it?
+        </div>
+        <div class="received-message">
+          She looks so happy! The time we discussed works. How long shall I take her out for?
+        </div>
+        <div class="payment-option">
+          <div> 
+            <input type="radio" name="payment" class="payment-radio">
+            30 minute walk 
+          </div>
+          <p class="price">$29</p>
+        </div>  
+        <div class="payment-option">
+          <div>
+            <input type="radio" name="payment" class="payment-radio">
+            1 hour walk 
+          </div>
+          <p class="price">$49</p>
+        </div>
+      </div> 
+      <div class="typing-section"> 
+        <input type="text" placeholder="Type a message…" id="typing-input">
+        <button id="send-button"><div id="send-icon"></div></button>
+      </div>
+    </div>
+    <div id="main-text">
+      <h1>Simple booking</h1>
+      <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.</p>
+    </div>
+    <div id="almost-transparent-background"></div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">shikoto</a>. 
+  </div>
+</body>
+</html>
